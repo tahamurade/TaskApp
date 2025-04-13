@@ -1,6 +1,6 @@
 const express = require('express');
 const jsonfile = require('jsonfile');
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const router = express.Router();
 
 const usersFile = './data/users.json';
